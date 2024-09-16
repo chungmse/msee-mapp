@@ -20,7 +20,11 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
     },
     "web": {
       "bundler": "metro",
@@ -47,6 +51,12 @@
         "projectId": "11025acb-a2b5-4486-8b8f-425e8889a6a0"
       }
     },
-    "owner": "chungnv"
+    "owner": "chungnv",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/11025acb-a2b5-4486-8b8f-425e8889a6a0"
+    }
   }
 }
